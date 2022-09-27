@@ -1,0 +1,54 @@
+.abs{position: absolute;}
+.rel{position: relative;}
+.home-page{
+  margin-left: 300px;
+  box-sizing: border-box;
+}
+.sidebar{
+  width: 250px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.sidebar .logo{
+  background: #ddd;
+  padding: 20px 25px;
+}
+.sidebar .MR_course_label{
+  margin-left: 50px;
+  display: flex;
+}
+.sidebar .MR_course_label .cam-icon{
+  align-content: center;
+}
+.sidebar .stats{
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.sidebar .stats-box{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.sidebar .me{
+  align-items: center;
+  margin: 30px 20px;
+}
+.sidebar .me .photo{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  overflow: hidden;
+  background: #eee;
+}
+.sidebar .me .photo .img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   margin: 10px;
+
+}
+

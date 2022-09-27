@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul, ol{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.fixed{position: fixed;}
+.flex{display: flex;}
+.abs{position: absolute;}
+.rel{position: relative;}
+.homepage{
+    position: relative;
+}
+.bl{
+    display: block;
+    block-size: 20%;
+}
+
+h1, h2, h3, h4, h5, h6{ font-weight: normal;}
+.noul{text-decoration: none;}
+.sidebar .label{padding-left: 5px;}
+.sidebar .nav{
+    padding: 15px 35px;
+}
+.sidebar .nav li a{
+    flex-direction: row;
+    align-items: center;
+}
+.sidebar .nav li a .on{
+    color: blue;
+}
+.c333{color: #333;}
+.s15{font-size: 15px;}
+.s20{font-size: 20px;}
